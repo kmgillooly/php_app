@@ -1,0 +1,287 @@
+/*******************
+GENERAL
+********************/
+
+body {
+  background-color: green;
+	font-family: 'Shadows Into Light', cursive;
+ }
+
+/*div in html - this is where photos of art are*/
+#imageGallery {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0 5%;
+  text-decoration: small-caption;
+  text-align: center;
+  text-height: 0.5em;
+  list-style: none;
+ 
+}
+
+/*no underlines for links*/
+a {
+  text-decoration: none; 
+}
+
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+/*******************
+HEADING
+********************/
+
+#header {
+  float: left;
+  margin: 0 0 20px 0;
+  padding: 15px 40px 10px 10px;
+  width: 100%; 
+}
+
+
+#logo {
+  text-align: center;
+  margin: 0;
+  text-decoration: cursive;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', cursive;
+  margin: 20px 20px;
+  padding: 10px 10px 0px 10px;
+  font-size: 1.65em;
+  font-weight: bold;
+  line-height: 1.8em;
+  
+}
+
+h2 {
+  font-family: courier;
+  font-size: 1.1em;
+  font-weight: normal;
+  margin: 0 0 5px 0;
+}
+
+/*******************
+wrapper font - image gallery font
+********************/
+#imageGallery {
+  font-family: courier;
+  font-size-adjust: 10;
+  
+}
+
+
+
+/*******************
+navigation
+********************/
+
+nav {
+  text-align:center;
+  padding: 0 20px 0 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+  margin: 0 10px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: normal;
+  padding: 15px 10px;
+}
+
+
+
+
+
+/*******************
+footer
+********************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+
+/*******************
+page: Home
+********************/
+
+#gallery {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+#gallery li {
+  float: center;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #fff;
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/*******************
+page: About
+********************/
+
+.profile-photo {
+  display:block;
+  max-width:150px;
+  margin:0 auto 30px;
+  border-radius:100%;
+}
+
+
+/*******************
+page: family
+*******************/
+
+.newborn {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 40px;
+  padding-top: 20px;
+}
+
+
+
+
+/*******************
+page: contact
+********************/
+
+
+
+.contact-info {
+  list-style: none;
+  padding:5px;
+  margin:5px;
+  font-size:0.9em;
+}
+
+.contact-info a {
+  display:block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size:20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info .mail a {
+  background-image:url('../img/mail.png');
+}
+.contact-info .twitter a {
+  background-image:url('../img/twitter.png');
+}
+
+
+
+
+/*******************
+colors
+********************/
+
+/*site body */
+body {
+  background-color: #000; 
+  color: #999; 
+}
+
+/*black header*/
+header {
+  background: #000;
+  border-color: #white;
+
+}
+
+/*nav background on mobile*/
+nav {
+  background: #000;
+}
+
+/*logo text*/
+h1, h2 {
+  color: pink;
+}
+
+/*links*/
+a {
+  color: #fff;
+}
+
+/*nav link*/
+nav a, nav a:visited {
+  color: #fff; 
+}
+
+/*selected nav link*/
+.selected, nav a:hover {
+  color: green;
+}
+
+#overlay {
+  background: rgba(0,0,0,0.7);
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 0;
+  left: 80px;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+  margin-top: 10%;
+}
+
+#overlay p {
+  color: white;
+}
