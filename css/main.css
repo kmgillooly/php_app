@@ -19,6 +19,7 @@ body {
  
 }
 
+
 /*no underlines for links*/
 a {
   text-decoration: none; 
@@ -31,8 +32,8 @@ img {
 
 h3 {
   text-align: center;
-  color: white;
-  font-family: courier;
+  color: red;
+  font-family: times;
   text-decoration: none;
 }
 
@@ -54,10 +55,11 @@ HEADING
   text-align: center;
   margin: 0;
   text-decoration: cursive;
+
 }
 
 h1 {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Lobster';
   margin: 20px 20px;
   padding: 10px 10px 0px 10px;
   font-size: 1.65em;
@@ -70,17 +72,24 @@ h2 {
   font-family: courier;
   font-size: 1.1em;
   font-weight: normal;
-  margin: 0 0 5px 0;
+  margin: 0 0 5px 10px;
 }
+
+
 
 /*******************
 wrapper font - image gallery font
 ********************/
 #imageGallery {
-  font-family: courier;
-  font-size-adjust: 10;
+  font-family: times;
+  font-size-adjust: 8 ;
   
 }
+
+#imageGallery {
+  position: relative;
+}
+
 
 
 
@@ -149,7 +158,7 @@ page: Home
 
 
 #gallery li {
-  float: center;
+  float: left;
   width: 45%;
   margin: 2.5%;
   background-color: #fff;
@@ -244,7 +253,7 @@ body {
 /*black header*/
 header {
   background: #000;
-  border-color: #white;
+  border-color: white;
 
 }
 
@@ -277,7 +286,7 @@ nav a, nav a:visited {
   background: rgba(0,0,0,0.7);
   width: 85%;
   height: 85%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 80px;
   display: none;

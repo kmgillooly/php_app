@@ -5,6 +5,8 @@ var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></p>");
 
+
+
 //An image to overlay
 $overlay.append($image);
 
@@ -14,15 +16,22 @@ $overlay.append($caption);
 //Add overlay
 $("body").append($overlay);
 
+
+  
+
 //Capture the click event on a link to an image
 $("#imageGallery a").click(function(event){
   event.preventDefault();
   var imageLocation = $(this).attr("href");
   //Update overlay with the image linked in the link
   $image.attr("src", imageLocation);
+ 
   
   //Show the overlay.
   $overlay.show();
+  
+
+ 
   
   //Get child's alt attribute and set caption
   var captionText = $(this).children("img").attr("alt");
@@ -34,3 +43,6 @@ $overlay.click(function(){
   //Hide the overlay
   $overlay.hide();
 });
+
+
+//trying to add an x button to photos
