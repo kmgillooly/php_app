@@ -4,19 +4,24 @@ GENERAL
 
 body {
   background-color: green;
-	font-family: 'Shadows Into Light', cursive;
- }
+	font-family:'Roboto', sans-serif;
+	margin: 0;
+  }
+  
+#wrapper {
+  width: 920px;
+  margin: 0 auto;
+  }
 
 /*div in html - this is where photos of art are*/
 #imageGallery {
   max-width: 50%;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 50px 0 0;
   text-decoration: small-caption;
   text-align: center;
   text-height: 0.5em;
   list-style: none;
- 
 }
 
 
@@ -30,12 +35,14 @@ img {
   max-width: 100%;
 }
 
-h3 {
-  text-align: center;
-  color: red;
-  font-family: times;
-  text-decoration: none;
-}
+#name {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: .25em;
+  padding: 30px 30px 80px 60px;
+  margin-left: 50px;
+  }
+
 
 
 
@@ -45,44 +52,23 @@ HEADING
 
 #header {
   float: left;
-  margin: 0 0 20px 0;
-  padding: 15px 40px 10px 10px;
+  margin: 20px 0;
   width: 100%; 
 }
 
-
-#logo {
+h3 {
   text-align: center;
-  margin: 0;
-  text-decoration: cursive;
-
+  color: black;
+  font-family: times;
+  text-decoration: none;
 }
-
-h1 {
-  font-family: 'Lobster';
-  margin: 20px 20px;
-  padding: 10px 10px 0px 10px;
-  font-size: 1.65em;
-  font-weight: bold;
-  line-height: 1.8em;
-  
-}
-
-h2 {
-  font-family: courier;
-  font-size: 1.1em;
-  font-weight: normal;
-  margin: 0 0 5px 10px;
-}
-
-
 
 /*******************
 wrapper font - image gallery font
 ********************/
 #imageGallery {
-  font-family: times;
-  font-size-adjust: 8 ;
+  font-family: verdana;
+  font-size-adjust: 8;
   
 }
 
@@ -90,39 +76,37 @@ wrapper font - image gallery font
   position: relative;
 }
 
-
-
-
 /*******************
 navigation
 ********************/
 
 nav {
   text-align:center;
-  padding: 0 20px 0 0;
-  margin: 20px 0 0;
+  margin: 50px 50px 50px 90px;
+  list-style: none;
+  float: right;
+  padding: 20px 30px 40px 60px;
 }
 
 nav ul {
   text-align: center;
   list-style: none;
-  margin: 0 10px;
+  margin: 20px 10px 30px 20px;
   padding: 20px;
-  text-decoration: none;
+  text-decoration: bold;
+
 }
 
 nav li {
   display: inline-block;
+  margin-right: 20px;
 }
 
 nav a {
   font-weight: normal;
+  font-size: 1.35em;
   padding: 15px 10px;
 }
-
-
-
-
 
 /*******************
 footer
@@ -237,7 +221,12 @@ page: contact
   background-image:url('../img/twitter.png');
 }
 
-
+#container {
+   overflow: hidden;
+}
+#wrapper2 {
+   overflow: hidden;
+}
 
 
 /*******************
@@ -246,40 +235,44 @@ colors
 
 /*site body */
 body {
-  background-color: #000; 
+  background-color: white; 
   color: #999; 
 }
 
-/*black header*/
+/* header*/
 header {
-  background: #000;
-  border-color: white;
-
+  background: white;
+  overflow: hidden;
 }
 
 /*nav background on mobile*/
 nav {
-  background: #000;
+  background: white;
 }
 
 /*logo text*/
 h1, h2 {
-  color: pink;
+  color: green;
 }
 
 /*links*/
 a {
-  color: #fff;
+  color: black;
 }
 
 /*nav link*/
 nav a, nav a:visited {
-  color: #fff; 
+  color: dark-green; 
 }
 
 /*selected nav link*/
 .selected, nav a:hover {
-  color: green;
+  color: #E5C100;
+}
+
+#player {
+ position: absolute; 
+ margin-left: 200px;
 }
 
 #overlay {
@@ -298,5 +291,5 @@ nav a, nav a:visited {
 }
 
 #overlay p {
-  color: white;
+  color: black;
 }
