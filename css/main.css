@@ -5,25 +5,9 @@ GENERAL
 body {
   background-color: green;
 	font-family:'Roboto', sans-serif;
-	margin: 0;
+	padding-top: 20px;
   }
   
-#wrapper {
-  width: 920px;
-  margin: 0 auto;
-  }
-
-/*div in html - this is where photos of art are*/
-#imageGallery {
-  max-width: 50%;
-  margin: 0 auto;
-  padding: 50px 0 0;
-  text-decoration: small-caption;
-  text-align: center;
-  text-height: 0.5em;
-  list-style: none;
-}
-
 
 /*no underlines for links*/
 a {
@@ -43,8 +27,29 @@ img {
   margin-left: 50px;
   }
 
+/*******************
+carousel - bootstrap
+********************/
+.container {
+  max-width: 1000px;
+}
 
+.jumbotron {
+  text-align: center;
+  padding-bottom: 50px;
+}
 
+.carousel-indicators {
+  bottom: 20px;
+}
+
+.carousel-indicators .active {
+  background-color: #222;
+}
+
+.carousel-indicators li {
+  border-color: #222;
+}
 
 /*******************
 HEADING
@@ -69,7 +74,7 @@ wrapper font - image gallery font
 #imageGallery {
   font-family: verdana;
   font-size-adjust: 8;
-  
+  color: black;
 }
 
 #imageGallery {
@@ -177,6 +182,10 @@ page: About
   border-radius:100%;
 }
 
+#bio {
+  padding-left: 60px;
+}
+
 
 /*******************
 page: family
@@ -189,6 +198,10 @@ page: family
   padding-top: 20px;
 }
 
+#family {
+  padding-left: 30px;
+}
+
 
 
 
@@ -196,6 +209,10 @@ page: family
 page: contact
 ********************/
 
+#wrapper2 {
+  text-align: center;
+  padding-left: 20px;
+}
 
 
 .contact-info {
@@ -216,16 +233,12 @@ page: contact
 
 .contact-info .mail a {
   background-image:url('../img/mail.png');
+  color: blue;
+  display: block;
 }
 .contact-info .twitter a {
   background-image:url('../img/twitter.png');
-}
-
-#container {
-   overflow: hidden;
-}
-#wrapper2 {
-   overflow: hidden;
+  color: green;
 }
 
 
@@ -262,7 +275,7 @@ a {
 
 /*nav link*/
 nav a, nav a:visited {
-  color: dark-green; 
+  color: green; 
 }
 
 /*selected nav link*/
@@ -272,7 +285,7 @@ nav a, nav a:visited {
 
 #player {
  position: absolute; 
- margin-left: 200px;
+ padding-left: 250px;
 }
 
 #overlay {
