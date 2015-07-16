@@ -32,6 +32,7 @@ carousel - bootstrap
 ********************/
 .container {
   max-width: 1000px;
+   
 }
 
 .jumbotron {
@@ -49,6 +50,10 @@ carousel - bootstrap
 
 .carousel-indicators li {
   border-color: #222;
+}
+.carousel-inner .item img {
+   margin: 0 auto 0 auto;
+   display: block;
 }
 
 /*******************
@@ -184,6 +189,8 @@ page: About
 
 #bio {
   padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
 }
 
 
@@ -199,7 +206,9 @@ page: family
 }
 
 #family {
-  padding-left: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
 }
 
 
@@ -223,7 +232,6 @@ page: contact
 }
 
 .contact-info a {
-  display:block;
   min-height: 20px;
   background-repeat: no-repeat;
   background-size:20px 20px;
@@ -234,7 +242,6 @@ page: contact
 .contact-info .mail a {
   background-image:url('../img/mail.png');
   color: blue;
-  display: block;
 }
 .contact-info .twitter a {
   background-image:url('../img/twitter.png');
