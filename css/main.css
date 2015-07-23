@@ -171,7 +171,15 @@ page: Home
 }
 
 
-
+.my-thumbnails{
+  list-style: none;
+}
+.my-thumbnails li{
+  display: inline-block;
+}
+.my-thumbnails li img{
+  width: 250px;
+}
 
 
 
@@ -185,12 +193,14 @@ page: About
   max-width:150px;
   margin:0 auto 30px;
   border-radius:100%;
+  padding-top: 20px;
 }
 
 #bio {
   padding-left: 60px;
   padding-right: 60px;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 
@@ -203,6 +213,7 @@ page: family
   max-width: 150px;
   margin: 0 auto 40px;
   padding-top: 20px;
+  border-radius:100%;
 }
 
 #family {
@@ -290,10 +301,6 @@ nav a, nav a:visited {
   color: #E5C100;
 }
 
-#player {
- position: absolute; 
- padding-left: 250px;
-}
 
 #overlay {
   background: rgba(0,0,0,0.7);
