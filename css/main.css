@@ -177,9 +177,14 @@ page: Home
   text-decoration: none;
 }
 
+/*************
+Home page
+*************/
 
 .my-thumbnails{
   list-style: none;
+  text-align: center;
+  padding-top: 40px;
 }
 .my-thumbnails li{
   display: inline-block;
@@ -188,7 +193,19 @@ page: Home
   width: 250px;
 }
 
+.carousel-control .icon-prev {
+    color: red; /* This makes the right arrow red */
+    font-size: 65px;
+}
 
+.carousel-control .icon-next {
+  color: red;
+  font-size: 65px;
+}
+
+.modal-title{
+  color: red;
+}
 
 
 /*******************
