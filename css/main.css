@@ -3,8 +3,6 @@ GENERAL
 ********************/
 
 body {
-  background-color: green;
-	font-family:'Roboto', sans-serif;
 	padding-top: 20px;
   }
   
@@ -21,40 +19,11 @@ img {
 
 #name {
   float: left;
-  font-family: 'Roboto', sans-serif;
   font-size: .25em;
   padding: 30px 30px 80px 60px;
   margin-left: 50px;
   }
 
-/*******************
-carousel - bootstrap
-********************/
-.container {
-  max-width: 1000px;
-   
-}
-
-.jumbotron {
-  text-align: center;
-  padding-bottom: 50px;
-}
-
-.carousel-indicators {
-  bottom: 20px;
-}
-
-.carousel-indicators .active {
-  background-color: #222;
-}
-
-.carousel-indicators li {
-  border-color: #222;
-}
-.carousel-inner .item img {
-   margin: 0 auto 0 auto;
-   display: block;
-}
 
 /*******************
 HEADING
@@ -80,18 +49,6 @@ h4 {
   
 }
 
-/*******************
-wrapper font - image gallery font
-********************/
-#imageGallery {
-  font-family: verdana;
- 
-  color: black;
-}
-
-#imageGallery {
-  position: relative;
-}
 
 /*******************
 navigation
@@ -144,42 +101,35 @@ footer {
 }
 
 
-
-
 /*******************
-page: Home
+page: portfolio 
+with carousel - bootstrap
 ********************/
-
-#gallery {
-  margin: 10px;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
+.container {
+  max-width: 1000px;
+   
 }
 
-
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #fff;
-  color: #fff;
-  text-decoration: none;
-  
+.jumbotron {
+  text-align: center;
+  padding-bottom: 50px;
 }
 
-
-#gallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #fff;
-  text-decoration: none;
+.carousel-indicators {
+  bottom: 20px;
 }
 
-/*************
-Home page
-*************/
+.carousel-indicators .active {
+  background-color: #222;
+}
+
+.carousel-indicators li {
+  border-color: #222;
+}
+.carousel-inner .item img {
+   margin: 0 auto 0 auto;
+   display: block;
+}
 
 .my-thumbnails{
   list-style: none;
@@ -325,22 +275,15 @@ nav a, nav a:visited {
   color: #E5C100;
 }
 
-
-#overlay {
-  background: rgba(0,0,0,0.7);
-  width: 85%;
-  height: 85%;
-  position: fixed;
-  top: 0;
-  left: 80px;
-  display: none;
-  text-align: center;
-}
-
-#overlay img {
-  margin-top: 10%;
-}
-
-#overlay p {
+/*******************
+font colors on pages
+********************/
+#imageGallery {
+  font-family: verdana;
+ 
   color: black;
+}
+
+#imageGallery {
+  position: relative;
 }
