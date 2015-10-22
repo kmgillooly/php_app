@@ -22,7 +22,7 @@ img {
   max-width: 100%;
 }
 
-#name {
+#kg {
   float: left;
   font-size: .25em;
   padding: 30px 30px 80px 60px;
@@ -58,6 +58,12 @@ h4 {
 /*******************
 navigation
 ********************/
+
+.on a {
+  text-decoration:underline;
+}
+
+
 
 nav {
   text-align:center;
@@ -96,7 +102,8 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #fff;
+  padding-bottom: 10px;
+  color: black;
 }
 
 .social-icon {
@@ -182,6 +189,13 @@ page: About
   padding-bottom: 30px;
 }
 
+/*******************
+page: Shop
+********************/
+.shop {
+  text-align: center;
+  display: inherit;
+}
 
 /*******************
 page: family
@@ -211,14 +225,20 @@ page: contact
 #wrapper2 {
   text-align: center;
   padding-left: 20px;
+  text-decoration: center;
 }
 
+.form {
+  text-align: center;
+  padding-left: 600px;
+}
 
 .contact-info {
   list-style: none;
   padding:5px;
   margin:5px;
   font-size:0.9em;
+  text-align: center;
 }
 
 .contact-info a {
@@ -227,6 +247,7 @@ page: contact
   background-size:20px 20px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
+  text-align: center;
 }
 
 .contact-info .mail a {
