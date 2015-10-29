@@ -46,71 +46,71 @@ include('includes/header.php'); ?>
    			<div class="carousel-inner">
    	   		<div class="item">
    				  	<p>Pink 12" X 16"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/pink44.jpg" alt="pink blend of acrylic paint on canvas">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/pink44.jpg" alt="pink blend of acrylic paint on canvas">
    				</div>
    				<div class="item">
    				  <p>Anniversary 5" X 6.5"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/andys22.jpg" alt="paining for my husband">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/andys22.jpg" alt="paining for my husband">
    				</div>
    				<div class="item">
    				  <p>Explosive 14.5" X 20"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/flower23.jpg" alt="flowers pained ironically in acrylic black and green paint">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/flower23.jpg" alt="flowers pained ironically in acrylic black and green paint">
    				</div>
    				<div class="item">
    				  <p>Storm 5" X 6"</p>  
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/brown100.jpg" alt="blend of colors with primarily brown acrylic on glass">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/brown100.jpg" alt="blend of colors with primarily brown acrylic on glass">
    				</div>
    				<div class="item">
    				  <p>Windows 20" X 16"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/red24.jpg" alt="painting with blues, whites, and red acrylic on canvas">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/red24.jpg" alt="painting with blues, whites, and red acrylic on canvas">
    				</div>
    				<div class="item">
    				  <p>11" X 14"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/teal100.jpg" alt="teal acrylic paint dominates the canvas">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/teal100.jpg" alt="teal acrylic paint dominates the canvas">
    				</div>
    				<div class="item">
    				  <p>Bug View 8" X 10"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/bugview25.jpg" alt="photograph of a bench from a bugs view">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startoverrt/img/bugview25.jpg" alt="photograph of a bench from a bugs view">
    				</div>
    				<div class="item">
    				  <p>Multicultural Collage 12" X 12"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/collage100.jpg" alt="symetrical multicultural collage">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/collage100.jpg" alt="symetrical multicultural collage">
    				</div>
     			<div class="item">
    				  <p>Textures 8" X 10"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/bucket100.jpg"  alt="photograph of a bucket on grain.">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/bucket100.jpg"  alt="photograph of a bucket on grain.">
    				</div>
    				<div class="item">
    				  <p>8" X 10"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/NAdance100.jpg" : alt="photograph of a native american dance">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/NAdance100.jpg" : alt="photograph of a native american dance">
    				</div>
    				<div class="item">
    				  <p>6" X 6"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/washed100.jpg" alt="acrylic of black and red and green on glass">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/washed100.jpg" alt="acrylic of black and red and green on glass">
    				</div>
    				<div class="item">
    				  <p>Raindrops 48" X 36"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/raindrops.jpg" alt="mixed media painting on wood">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/raindrops.jpg" alt="mixed media painting on wood">
    				</div>
    				<div class="item">
    				  <p>Spring 9.5" X 7.5"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/spring.jpg" alt="acrylic on glass spring">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/spring.jpg" alt="acrylic on glass spring">
    				</div>
    				<div class="item">
    				  <p>4" X 6"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/sun.jpg" alt="acrylic on glass sun">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/sun.jpg" alt="acrylic on glass sun">
    				</div>
    				<div class="item">
    				  <p>5" x 7"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/cc.jpg" alt="acrylic on glass cotton candy colors">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/cc.jpg" alt="acrylic on glass cotton candy colors">
    				</div>
    				<div class="item">
    				  <p>8" X 10"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/spin.jpg" alt="acrylic on canvas">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/spin.jpg" alt="acrylic on canvas">
    				</div>
    				<div class="item">
    				  <p>14" X 11"</p>
-   						<img src="https://preview.c9.io/kmgillooly/kgart/img/orangeblue.jpg" alt="acrylic on canvas">
+   						<img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/orangeblue.jpg" alt="acrylic on canvas">
    				</div>
   			</div>
  		
@@ -135,23 +135,23 @@ include('includes/header.php'); ?>
  <!-- Thumnails of images listed here in unordered list with bootstrap styling
  When user clicks on the thumbnail, it calls the modal with the slider in it--> 
   <ul class="my-thumbnails">
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/pink44.jpg" alt="pink blend of acrylic paint on canvas" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/andys22.jpg" alt="painint for my husband" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/flower23.jpg" alt="flowers pained ironically in acrylic black and green paint" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/brown100.jpg" alt="blend of colors with primarily brown acrylic on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/red24.jpg" alt="p ainting with blues, whites, and red acrylic on canvas" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/teal100.jpg" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/bugview25.jpg" alt="photograph of a bench from a bugs view" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/collage100.jpg" alt="symetrical multicultural collage" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/bucket100.jpg" alt="photograph of a bucket on grain." data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/NAdance100.jpg" alt="photograph of a native american dance" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/washed100.jpg" alt="acrylic of black and red and green on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/raindrops.jpg" alt="mixed media painting on wood" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-    <li><img src="https://preview.c9.io/kmgillooly/kgart/img/spring.jpg" alt="acrylic on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/sun.jpg" alt="acrylic on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/cc.jpg" alt="acrylic on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/spin.jpg" alt="acrylic on canvas" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
-  	<li><img src="https://preview.c9.io/kmgillooly/kgart/img/orangeblue.jpg" alt="acrylic on canvas" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/pink44.jpg" alt="pink blend of acrylic paint on canvas" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/andys22.jpg" alt="painint for my husband" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/flower23.jpg" alt="flowers pained ironically in acrylic black and green paint" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/brown100.jpg" alt="blend of colors with primarily brown acrylic on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/red24.jpg" alt="p ainting with blues, whites, and red acrylic on canvas" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/teal100.jpg" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/bugview25.jpg" alt="photograph of a bench from a bugs view" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/collage100.jpg" alt="symetrical multicultural collage" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/bucket100.jpg" alt="photograph of a bucket on grain." data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/NAdance100.jpg" alt="photograph of a native american dance" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/washed100.jpg" alt="acrylic of black and red and green on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/raindrops.jpg" alt="mixed media painting on wood" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+    <li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/spring.jpg" alt="acrylic on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/sun.jpg" alt="acrylic on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/cc.jpg" alt="acrylic on glass" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/spin.jpg" alt="acrylic on canvas" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
+  	<li><img src="https://preview.c9.io/kmgillooly/php_app_cloned_startover/img/orangeblue.jpg" alt="acrylic on canvas" data-toggle="modal" data-target="#myModal" class="img thumbnail"></li>
   </ul>
  
   

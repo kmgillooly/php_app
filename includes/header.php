@@ -21,12 +21,12 @@
    	    <a href="index.php" id="logo">
       		<span id="kg"><img src="img/kglogo.jpg" alt="kg letter logo"><img src="img/developments.jpg" alt="developments"></span>
         </a>
-        <nav>
-       	  <li class= "Paintings <?php if ($section == "paintings") { echo "on"; } ?>"><a href="index.php">Paintings</a></li>
-       	  <li class= "shop <?php if ($section == "shop") { echo "on"; } ?>"><a href="shop.php">Shop</a></li>
-   	      <li class= "about <?php if ($section == "about") { echo "on"; } ?>"><a href="about.php">About</a></li>
-   	      <li class= "family <?php if ($section == "family") { echo "on"; } ?>"><a href="Family.php">Family</a></li>
-          <li class= "contact <?php if ($section == "contact") { echo "on"; } ?>"><a href="contact.php">Contact</a></li>
+        <nav class="navbar navbar-default">
+       	    <li class= "Paintings <?php if ($section == "paintings") { echo "on"; } ?>"><a href="index.php" >Paintings</a></li>
+       	    <li class= "shop <?php if ($section == "shop") { echo "on"; } ?>"><a href="shop.php">Shop</a></li>
+   	        <li class= "about <?php if ($section == "about") { echo "on"; } ?>"><a href="about.php">About</a></li>
+   	        <li class= "family <?php if ($section == "family") { echo "on"; } ?>"><a href="Family.php">Family</a></li>
+            <li class= "contact <?php if ($section == "contact") { echo "on"; } ?>"><a href="contact.php">Contact</a></li>
         </nav>
    	</header>
    	
