@@ -1,51 +1,11 @@
+<?php include("includes/database.php"); ?>
+
 <?php
 
-function get_products_recent(){
-    $recent = array();
-    $all = get_products_all();
-    
-    $total_products = count($all);
-    $position = 0;
-    
-    foreach($all as $product) {
-        $position = $position + 1;
-        if ($total_products - $position < 4) {
-            $recent[] = $product;
-        }
-    }
-    return $recent;
-    
-function get_products_search($s) {
-    $results = array();
-    $all = get_products_all();
-    
-    foreach($all as $product) {
-        if (stripose($product["name"],$s) !== false) {
-            $results[] = $product;
-        }
-    }
-    return $results;
-}
-    
-function get_products_all(){
-    return count(get_products_all());    
-}
 
-function get_products_subset($positionStart, $positionEnd) {
-    $subset = array ();
-    $all = get_products_all();
-    
-    $position = 0;
-    foreach($all as $product) {
-        $position += 1;
-        if ($position >= $positionStart && $position <= $positionEnd) {
-            $subset[] = $proudct;
-        }
-    }
-    return $subset;
-}
 
-function get_products_all() {
+
+function get_products_all($db) {
 /*
 $products = array();
 $products[101] = array(
@@ -73,11 +33,10 @@ $products[104] = array(
     "paypal" => "VLEN22VKUE95U",
 );
 */
-
-    require(ROOT_PATH . "includes/database.php");
+    $products = $results;
 
     try {
-        $results = $db->query("SELECT name,  price, img, sku, paypal FROM products ORDER BY sku ASC");
+        $results = $db->query("SELECT name, price, img, sku, paypal FROM products");
     } catch (Exception $e) {
         echo "data couldnt be retrieved from the database";
         exit;
@@ -85,6 +44,6 @@ $products[104] = array(
 
     $products = $results->fetchALL(PDO::FETCH_ASSOC);
 
-        return products;    
+        return $products;    
 }
 ?>

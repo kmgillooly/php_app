@@ -1,16 +1,5 @@
 <?php include("includes/products.php"); 
 
-if (isset($_GET["id"])) {
-    $product_id = $_GET["id"];
-    if (isset($products[$product_id])) {
-        $product = $products[$product_id];
-    }
-}
-if (!isset($product)) {
-   header("Location: shop.php");
-   exit();
-}
-
 $section = "shop";
 $pageTitle = $product["name"];
 include("includes/header.php"); ?>

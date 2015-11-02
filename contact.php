@@ -34,8 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	
 	
 	$email_body = "";
-	$email_body = $email_body . "Name: " . $name . "<br>";
-	$email_body = $email_body . "Email: " . $email . "<br>";
+	$email_body = $email_body . "Name: " . $name . "br";
+	$email_body = $email_body . "Email: " . $email . "br";
 	$email_body = $email_body . "Message: " . $message;
 
 	//TODO: Send email
