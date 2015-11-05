@@ -1,10 +1,17 @@
 <?php include("includes/database.php"); ?>
-
 <?php
-
-
-
-
+function get_product($db, $sku) {
+  //write a function that queries the database for a single product and returns the result.
+  try {
+    $results = $db->query("SELECT name, price, img, sku, paypal FROM products WHERE sku = ?");
+  } catch (Exception $e) { 
+      echo "data couldnt be retrieved from the database";
+        return;
+    }
+    
+    return $results;
+   
+}
 function get_products_all($db) {
 /*
 $products = array();
@@ -33,17 +40,15 @@ $products[104] = array(
     "paypal" => "VLEN22VKUE95U",
 );
 */
-    $products = $results;
-
     try {
-        $results = $db->query("SELECT name, price, img, sku, paypal FROM products");
+        $results = $db->query("SELECT name, price, img, sku, paypal FROM products ORDER BY sku ASC");
     } catch (Exception $e) {
         echo "data couldnt be retrieved from the database";
         exit;
     }
-
+    
     $products = $results->fetchALL(PDO::FETCH_ASSOC);
 
-        return $products;    
+    return $products;    
 }
 ?>

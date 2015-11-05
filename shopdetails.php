@@ -1,17 +1,19 @@
-<?php include("includes/products.php"); 
+<?php include("includes/products.php");
 
+$product = get_product($db, $_GET['id']);
 $section = "shop";
 $pageTitle = $product["name"];
 include("includes/header.php"); ?>
 
 
+
         <div class="section page">
             <div class="wrapper2">
-                <div class="breadcrumb"><a href="shop.php">Shop> </a><?php echo $product["name"]; ?></div>
-                
+                <div class="breadcrumb"><a href="shop.php">Click Here to Go Back to the Shop> </a><?php echo $product["name"]; ?></div>
+                 
                 <div class="shop-picture">
                     <span>    
-                        <img src="<?php echo $product["image"]; ?>" alt="<?php echo $product["name"]; ?>">
+                       <img src="<?php echo $product["img"]; ?>" alt="<?php echo $product["name"]; ?>"> 
                     </span>
                     
                 </div>
@@ -34,5 +36,5 @@ include("includes/header.php"); ?>
             </div>
             
         </div>
-        
+  
 <?php include("includes/footer.php"); ?>

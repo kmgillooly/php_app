@@ -16,10 +16,10 @@ include('includes/header.php'); ?>
 
                      <ul class = "products">
                         <?php $products = get_products_all($db); ?>
-                        <?php foreach($products as  $product) {
+                        <?php foreach($products as $product) { 
                             echo "<li>";
-                            echo '<a href="shopdetails.php?id=' . $product_id .'">';
-                            echo '<img src=" ' . $product["image"] . '" alt="' . $product["name"] . '">';
+                            echo '<a href="shopdetails.php?id=' . $product["sku"] .'">';
+                            echo '<img src=" ' . $product["img"] . '" alt="' . $product["name"] . '">';
                             echo "<p>View Details</p>";
                             echo "</a>";
                             echo "</li>";

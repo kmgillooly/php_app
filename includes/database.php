@@ -23,7 +23,8 @@
         echo "The ID is: " . $row['id'] . " and the Username is: " . $row['username'];
     }
 
-    
+/*to connect to the database: */
+   
 try {
     $db = new PDO("mysql:host=" . $host . ";dbname=" . $db .";port=" . $port, $user);
     $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
