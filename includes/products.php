@@ -3,7 +3,11 @@
 function get_product($db, $sku) {
   //write a function that queries the database for a single product and returns the result.
   try {
-    $results = $db->query("SELECT name, price, img, sku, paypal FROM products WHERE sku = ?");
+    $stmt = $db->prepare("SELECT name, price, img, sku, paypal FROM products WHERE sku = :sku");
+    $stmt->bindParam(':sku', $sku, PDO::PARAM_INT);
+    $stmt->execute();
+    $results = $stmt->fetch(PDO::FETCH_ASSOC);
+    
   } catch (Exception $e) { 
       echo "data couldnt be retrieved from the database";
         return;

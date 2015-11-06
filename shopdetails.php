@@ -1,26 +1,27 @@
 <?php include("includes/products.php");
 
-$product = get_product($db, $_GET['id']);
+$products = get_product($db, $_GET['id']);
+
 $section = "shop";
-$pageTitle = $product["name"];
+$pageTitle = $products["name"];
 include("includes/header.php"); ?>
 
 
 
         <div class="section page">
             <div class="wrapper2">
-                <div class="breadcrumb"><a href="shop.php">Click Here to Go Back to the Shop> </a><?php echo $product["name"]; ?></div>
+                <div class="breadcrumb"><a href="shop.php">Click Here to Go Back to the Shop> </a><?php echo $products["name"]; ?></div>
                  
                 <div class="shop-picture">
                     <span>    
-                       <img src="<?php echo $product["img"]; ?>" alt="<?php echo $product["name"]; ?>"> 
+                       <img src="<?php echo $products["img"]; ?>" alt="<?php echo $products["name"]; ?>"> 
                     </span>
                     
                 </div>
                 
                 <div class="shop-details">
                     
-                    <h1><span class="price">$<?php echo $product["price"]; ?></span><?php echo $product["name"]; ?></h1>
+                    <h1><span class="price">$<?php echo $products["price"]; ?></span><?php echo $products["name"]; ?></h1>
                     
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
