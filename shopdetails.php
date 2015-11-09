@@ -1,7 +1,6 @@
 <?php include("includes/products.php");
 
 $products = get_product($db, $_GET['id']);
-
 $section = "shop";
 $pageTitle = $products["name"];
 include("includes/header.php"); ?>
@@ -21,7 +20,7 @@ include("includes/header.php"); ?>
                 
                 <div class="shop-details">
                     
-                    <h1><span class="price">$<?php echo $products["price"]; ?></span><?php echo $products["name"]; ?></h1>
+                    <h2><span class="price">$<?php echo $products["price"]; ?></span><?php echo $products["name"]; ?></h2>
                     
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
