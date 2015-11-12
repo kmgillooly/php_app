@@ -7,23 +7,21 @@ include('includes/header.php'); ?>
 
 <?php
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-  
+  print_r($_POST);
   // Get values from form 
-  $contact_id=$_POST['contact_id'];
-  $contact_name=$_POST['contact_name'];
-  $contact_email=$_POST['contact_email'];
-  $contact_message=$_POST['contact_message'];
+  $contact_name=$_POST['name'];
+  $contact_email=$_POST['email'];
+  $contact_message=$_POST['message'];
   
   
   // Insert data into mysql 
   try {
-    $sql = $db->prepare("INSERT INTO form(contact_id, contact_name, contact_email, contact_message)VALUES(':contact_id', ':contact_name', ':contact_email', ':contact_message')");
-    $sql->bindParam(':contact_id', $contact_id, PDO::PARAM_INT);
+    $sql = $db->prepare("INSERT INTO form(contact_name, contact_email, contact_message)VALUES(:contact_name, :contact_email, :contact_message)");
     $sql->bindParam(':contact_name', $contact_name, PDO::PARAM_STR, 200);
     $sql->bindParam(':contact_email', $contact_email, PDO::PARAM_STR, 200);
     $sql->bindParam(':contact_message', $contact_message, PDO::PARAM_STR, 400);
     $sql->execute();
-    
+    header("Location: contact.php?status=thanks");
   }
   
      catch (Exception $e) { 
@@ -34,19 +32,17 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 ?>
 
-
   <div id="imageGallery">
 	<div id="wrapper2">
 		<section>  
 			<h3>Contact Form</h3>
-			
 			
 			<?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>	
 				<p>Thanks for the email! I will be in touch soon.</p>
 			<?php } else { ?>
 			
 		
-			<p>Feel free to fill out this form to send me an email!</p>
+			<p>Feel free to fill out this form to send me an message!</p>
 
 			
 				<div class="form-group form-group-sm">
