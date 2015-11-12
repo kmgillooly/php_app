@@ -1,10 +1,39 @@
 <?php include("includes/database.php"); ?>
-<?php include("includes/contact_process.php"); ?>
+
 <?php 
 $pageTitle = "Contact Kristina";
 $section = "contact";
 include('includes/header.php'); ?>
-  	
+
+<?php
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+  
+  // Get values from form 
+  $contact_id=$_POST['contact_id'];
+  $contact_name=$_POST['contact_name'];
+  $contact_email=$_POST['contact_email'];
+  $contact_message=$_POST['contact_message'];
+  
+  
+  // Insert data into mysql 
+  try {
+    $sql = $db->prepare("INSERT INTO form(contact_id, contact_name, contact_email, contact_message)VALUES(':contact_id', ':contact_name', ':contact_email', ':contact_message')");
+    $sql->bindParam(':contact_id', $contact_id, PDO::PARAM_INT);
+    $sql->bindParam(':contact_name', $contact_name, PDO::PARAM_STR, 200);
+    $sql->bindParam(':contact_email', $contact_email, PDO::PARAM_STR, 200);
+    $sql->bindParam(':contact_message', $contact_message, PDO::PARAM_STR, 400);
+    $sql->execute();
+    
+  }
+  
+     catch (Exception $e) { 
+      echo "data couldnt be entered into the database" . $e->getMessage();
+        return;
+    }
+
+}
+?>
+
 
   <div id="imageGallery">
 	<div id="wrapper2">
@@ -19,10 +48,10 @@ include('includes/header.php'); ?>
 		
 			<p>Feel free to fill out this form to send me an email!</p>
 
-			<form class="form-inline">
+			
 				<div class="form-group form-group-sm">
 				
-					<form method="post" action="contact_process.php">
+					<form class="form-inline" method="post" action="contact.php" method="post">
 						<div id="form">
 						<table>
 							<tr>
@@ -30,7 +59,7 @@ include('includes/header.php'); ?>
 									<label for="name">Name</label>
 								</th>
 								<td>
-									<input type="text" name="name" id="username">
+									<input type="text" name="name" id="username" value="<?php if (isset($_POST['contact_name'])) echo $_POST['contact_name']; ?>">
 								</td>
 							</tr>
 							<tr>
@@ -38,7 +67,7 @@ include('includes/header.php'); ?>
 									<label for="email">Email</label>
 								</th>
 								<td>
-									<input type="text" name="email" id="email">
+									<input type="text" name="email" id="email" value="<?php if (isset($_POST['contact_email'])) echo $_POST['contact_email']; ?>">
 								</td>
 							</tr>
 							<tr>
@@ -47,6 +76,7 @@ include('includes/header.php'); ?>
 								</th>
 								<td>
 									<textarea name="message" id="message"></textarea>
+									<value="<?php if (isset($_POST['contact_message'])) echo $_POST['contact_message']; ?>">
 								</td>
 							</tr>
 								<tr style="display: none;">
@@ -63,7 +93,7 @@ include('includes/header.php'); ?>
 					<input type="submit" value="send">
 				
 					</form>
-		</form>
+		
 		<?php } ?>
 	
 

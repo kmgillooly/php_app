@@ -266,7 +266,7 @@ colors
 /*site body */
 body {
   background-color: white; 
-  color: #999; 
+  color: navy; 
 }
 
 /* header*/
@@ -343,21 +343,20 @@ testing from Mike the Frog tshirt site
 .section.shop ul.products li {
     display: inline-block;
     list-style: none;
-    border: 1px solid #e3e1e0;
+    border: 1px solid black;
     -webkit-border-radius: 2px;
     border-radius: 2px;
     width: 202px;
     text-align: center;
-    text-transform: lowercase;
-    padding: 14px;
-    background: #f0eeed;
+    text-transform: uppercase;
+    background: gold;
     margin: 0 0 17px 17px;
     position: relative;
     left: -17px;
 }
 .section.shop ul.products li a:hover:after {
     content: '+';
-    font-size: 50px; position: absolute; top: -10px; right: 25px; color: #f16702; vertical-align: top;    
+    font-size: 20px; position: absolute; top: -5px; right: 25px; color: navy; vertical-align: bottom;    
 }
 .section.shop ul.products li a {
     background: white;
@@ -384,19 +383,17 @@ testing from Mike the Frog tshirt site
     float: left;
     width: 460px;
     text-align: center;
-    border: 1px solid #d9d9d9;
-    padding: 14px;
     background: #f0eeed;    
 }
 .shop-picture span {
     background: white;
     display: block;
     width: 100%;
-    padding: 36px 0 61px;
+   
 }
 .shop image {
   width: 292px;
-  padding-left: 200px;
+
 }
 
 
@@ -429,13 +426,12 @@ testing from Mike the Frog tshirt site
 #form input[type="submit"] {
     width: 375px;
     text-align: center;
-
-    background: #9c9f4e;
-    color: #FFF;
+    background: navy;
+    color: gold;
     -webkit-border-radius: 2px;
     border-radius: 2px;    
     font-size: 14px;
     text-transform: uppercase;
-    padding: 14px;
+  
 }
 
