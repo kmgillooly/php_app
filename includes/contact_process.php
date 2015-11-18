@@ -12,20 +12,18 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   
   // Insert data into mysql 
   try {
-    $sql = $db->prepare("INSERT INTO form(contact_id, contact_name, contact_email, contact_message)VALUES(':contact_id', ':contact_name', ':contact_email', ':contact_message')");
-    $sql->bindParam(':contact_id', $contact_id, PDO::PARAM_INT);
-    $sql->bindParam(':contact_name', $contact_name, PDO::PARAM_STR, 20);
-    $sql->bindParam(':contact_email', $contact_email, PDO::PARAM_STR, 20);
-    $sql->bindParam(':contact_message', $contact_message, PDO::PARAM_STR, 20);
+    $sql = $db->prepare("INSERT INTO form(contact_id, contact_name, contact_email, contact_message)VALUES(:contact_name, :contact_email, :contact_message)");
+    $sql->bindParam(':contact_name', $contact_name, PDO::PARAM_STR, 200);
+    $sql->bindParam(':contact_email', $contact_email, PDO::PARAM_STR, 200);
+    $sql->bindParam(':contact_message', $contact_message, PDO::PARAM_STR, 400);
     $sql->execute();
-    $result=$sql->fetch(PDO::FETCH_ASSOC);
+    header("Location: contact.php?status=thanks");
   }
   
      catch (Exception $e) { 
       echo "data couldnt be entered from the database";
         return;
     }
-    return $results;
     
   // if successfully insert data into database, displays message "Successful". 
   if($result){
